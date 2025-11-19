@@ -114,7 +114,7 @@ if %ERRORLEVEL% EQU 0 (
     echo Output: fallout_univac.exe
 
     REM Display file size
-    for %%A in (fallout_univac.exe^) do (
+    for %%A in (fallout_univac.exe) do (
         echo File size: %%~zA bytes
     )
     echo.
